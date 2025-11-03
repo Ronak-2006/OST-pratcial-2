@@ -1,1 +1,85 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Vegetable List</title> <style> body { font-family: Arial, sans-serif; background-color: #f6fff2; margin: 40px; } h1 { text-align: center; color: #2e7d32; } table { width: 70%; margin: 0 auto; border-collapse: collapse; box-shadow: 0 0 10px rgba(0,0,0,0.1); } th, td { border: 1px solid #c8e6c9; padding: 12px; text-align: center; } th { background-color: #81c784; color: white; } tr:nth-child(even) { background-color: #f1f8e9; } img { width: 80px; height: 80px; object-fit: cover; border-radius: 6px; } </style> </head> <body> <h1>Fresh Vegetable List</h1> <table> <thead> <tr> <th>Photo</th> <th>Vegetable Name</th> <th>Quantity (kg)</th> <th>Price ($)</th> </tr> </thead> <tbody> <tr> <td><img src="carrot.jpeg" alt="Carrots"></td> <td>Carrot</td> <td>5</td> <td>6.50</td> </tr> <tr> <td><img src="tomato.jpeg" alt="Tomato"></td> <td>Tomato</td> <td>3</td> <td>3.75</td> </tr> <tr> <td><img src="onion.jpeg" alt="Onion"></td> <td>Onion</td> <td>4</td> <td>5.00</td> </tr> </tbody> </table> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetable List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6fff2;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+    }
+    table {
+      width: 70%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #c8e6c9;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #81c784;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f1f8e9;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    @media (max-width: 768px) {
+      table {
+        width: 95%;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Fresh Vegetable List</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Photo</th>
+        <th>Vegetable Name</th>
+        <th>Quantity (kg)</th>
+        <th>Price ($)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="carrot.jpeg" alt="Carrots"></td>
+        <td>Carrot</td>
+        <td>5</td>
+        <td>6.50</td>
+      </tr>
+      <tr>
+        <td><img src="tomato.jpeg" alt="Tomato"></td>
+        <td>Tomato</td>
+        <td>3</td>
+        <td>3.75</td>
+      </tr>
+      <tr>
+        <td><img src="onion.jpeg" alt="Onion"></td>
+        <td>Onion</td>
+        <td>4</td>
+        <td>5.00</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
